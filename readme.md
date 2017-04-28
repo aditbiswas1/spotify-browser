@@ -2,18 +2,20 @@
 
 This is a simple django application which consumes the spotify web search api to to display names and images of tracks, albums, artists and playlists.
 
-Software Requirements:
+## Software Requirements:
 * Python3.4+
-* Django
+* Django 1.11
+* requests 2.13
 
+## Installation
 The entire application can be setup with the following steps:
 1. create and activate a virtualenv
 2. pip install -r requirements.txt
 3. python manage.py test (optional)
-4. python manager.py runserver
+4. python manage.py runserver
 5. open the browser and visit http://localhost:8000
 
-Design:
+## Design:
 
 The main parts of the application can be found in the module called spotify_proxy.
 
